@@ -14,3 +14,18 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.card-title {
+  text-align: center;
+}
+
+.a-hyperlink {
+  text-decoration: none;
+  color: black;
+}
+
+.a-hyperlink:hover {
+  text-decoration: none;
+  color: black;
+}
+
