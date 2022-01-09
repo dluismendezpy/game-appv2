@@ -15,7 +15,7 @@ const content = [
   {
     title: "Pudfu",
     img: "https://play-lh.googleusercontent.com/8ddL1kuoNUB5vUvgDVjYY3_6HwQcrg1K2fd_R8soD-e2QYj8fT9cfhfh3G0hnSruLKec",
-    href: "/hola",
+    href: "./components/games/Waterly/Waterly",
   },
   {
     title: "Pudfu",
@@ -25,7 +25,6 @@ const content = [
 ];
 
 export default function Home() {
-
   const [theme, setTheme] = useState("dark");
 
   const themeToggler = () => {
@@ -44,11 +43,14 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="text-center mt-2">
+      <div className="text-center mt-1">
         <ThemeProvider theme={theme === "light" ? lightTheme : darkTheme}>
           <GlobalStyles />
           <StyledApp>
-            <button className="btn btn-secondary" onClick={() => themeToggler()}>
+            <button
+              className="btn btn-secondary"
+              onClick={() => themeToggler()}
+            >
               Change Theme
             </button>
           </StyledApp>
@@ -66,14 +68,12 @@ export default function Home() {
               className="col-11 col-md-6 col-lg-3 mx-0 mb-4"
             >
               <div className="card p-0 overflow-hidden h-100 shadow border border-warning">
-                <Link href={item.href}>
-                  <a className="a-hyperlink">
-                    <img src={item.img} className="card-img-top" />
-                    <div className="card-body">
-                      <h5 className="card-title card-title">{item.title}</h5>
-                    </div>
-                  </a>
-                </Link>
+                <a href={item.href} className="a-hyperlink">
+                  <img src={item.img} className="card-img-top" />
+                  <div className="card-body">
+                    <h5 className="card-title card-title">{item.title}</h5>
+                  </div>
+                </a>
               </div>
             </div>
           ))}
