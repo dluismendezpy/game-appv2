@@ -5,7 +5,8 @@ function Waterly() {
     btnn.style.display = "none";
 
     // WRITE CANVAS HTML
-    document.getElementById("conta").innerHTML = "<canvas id='canvas1'></canvas>";
+    document.getElementById("conta").innerHTML =
+      "<canvas id='canvas1'></canvas>";
 
     // VARIABLES
     const canvas = document.getElementById("canvas1");
@@ -339,11 +340,14 @@ function Waterly() {
 
   return (
     <body>
-      <button className="btn btn-secondary button" id="btnStart" onClick={() => gameCode()}>
+      <button
+        className="btn btn-secondary button"
+        id="btnStart"
+        onClick={() => gameCode()}
+      >
         New Game
       </button>
-      <container id="conta">
-      </container>
+      <container id="conta"></container>
     </body>
   );
 }
