@@ -340,7 +340,7 @@ function Waterly() {
   return (
     <body>
       <button className="btn btn-secondary button" id="btnStart" onClick={() => gameCode()}>
-        Start game
+        New Game
       </button>
       <container id="conta">
       </container>
