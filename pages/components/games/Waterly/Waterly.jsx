@@ -1,5 +1,12 @@
 function Waterly() {
   const gameCode = () => {
+    //HIDDEN START BTN
+    let btnn = document.getElementById("btnStart");
+    btnn.style.display = "none";
+
+    // WRITE CANVAS HTML
+    document.getElementById("conta").innerHTML = "<canvas id='canvas1'></canvas>";
+
     // VARIABLES
     const canvas = document.getElementById("canvas1");
     const ctx = canvas.getContext("2d");
@@ -332,11 +339,10 @@ function Waterly() {
 
   return (
     <body>
-      <container>
-        <button className="btn btn-secondary" onClick={() => gameCode()}>
-          Start game
-        </button>
-        <canvas id="canvas1"></canvas>
+      <button className="btn btn-secondary button" id="btnStart" onClick={() => gameCode()}>
+        Start game
+      </button>
+      <container id="conta">
       </container>
     </body>
   );
