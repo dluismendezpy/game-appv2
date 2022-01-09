@@ -215,7 +215,7 @@ function Waterly() {
     let adjustY = -3;
     ctx.fillStyle = "white";
     ctx.font = "17px Verdana";
-    ctx.fillText("HAUMEX", 20, 42);
+    ctx.fillText("HAU🐳🐠", 20, 42);
     const textCoordinates = ctx.getImageData(0, 0, 100, 100);
 
     class Particle2 {

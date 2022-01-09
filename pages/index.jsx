@@ -13,7 +13,7 @@ const StyledApp = styled.div`
 
 const content = [
   {
-    title: "Pudfu",
+    title: "Waterly",
     img: "https://image.freepik.com/free-vector/many-sharks-cartoon-character-underwater-background_1308-53749.jpg",
     href: "./components/games/Waterly/Waterly",
   },
