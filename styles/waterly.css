@@ -22,6 +22,7 @@ body {
   width: 900px;
   height: 600px;
   background: url("../pages/components/games/Waterly/assets/img/ocean.jpg");
+  border-radius: 15px;
 }
 
 .button {

@@ -14,7 +14,7 @@ const StyledApp = styled.div`
 const content = [
   {
     title: "Pudfu",
-    img: "https://play-lh.googleusercontent.com/8ddL1kuoNUB5vUvgDVjYY3_6HwQcrg1K2fd_R8soD-e2QYj8fT9cfhfh3G0hnSruLKec",
+    img: "https://image.freepik.com/free-vector/many-sharks-cartoon-character-underwater-background_1308-53749.jpg",
     href: "./components/games/Waterly/Waterly",
   },
   {
@@ -67,7 +67,7 @@ export default function Home() {
               data-aos-duration="600"
               className="col-11 col-md-6 col-lg-3 mx-0 mb-4"
             >
-              <div className="card p-0 overflow-hidden h-100 shadow border border-warning">
+              <div className="card p-0 overflow-hidden h-100 shadow">
                 <a href={item.href} className="a-hyperlink">
                   <img src={item.img} className="card-img-top" />
                   <div className="card-body">
