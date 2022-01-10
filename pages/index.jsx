@@ -48,10 +48,13 @@ export default function Home() {
           <GlobalStyles />
           <StyledApp>
             <button
-              className="btn btn-secondary"
+              class="button-82-pushable"
               onClick={() => themeToggler()}
+              role="button"
             >
-              Change Theme
+              <span class="button-82-shadow"></span>
+              <span class="button-82-edge"></span>
+              <span class="button-82-front text">Change Theme</span>
             </button>
           </StyledApp>
         </ThemeProvider>
