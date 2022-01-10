@@ -18,9 +18,9 @@ const content = [
     href: "./components/games/Waterly/Waterly",
   },
   {
-    title: "Pudfu",
-    img: "https://img.poki.com/cdn-cgi/image/quality=78,width=600,height=600,fit=cover,g=0.5x0.5,f=auto/2c6d5a46cdbceada277c870ce1c389ee.jpg",
-    href: "#",
+    title: "Tic Tac Toe",
+    img: "https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/01/df/23/01df2352-52ec-2bf8-e0bc-cfe8a3b051ce/source/512x512bb.jpg",
+    href: "./components/games/TicTacToe/TicTacToe",
   },
 ];
 
