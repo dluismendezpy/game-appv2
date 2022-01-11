@@ -19,7 +19,7 @@ function TicTacToe() {
       "</div>" +
       "<div class='winning-message' id='winningMessage'>" +
       "<div data-winning-message-text></div>" +
-      "<button id='restartButton'>Restart</button>" +
+      "<button id='restartButton'>Play Again</button>" +
       "</div>";
 
     // VARIABLES
@@ -76,7 +76,7 @@ function TicTacToe() {
 
     function endGame(draw) {
       if (draw) {
-        winningMessageTextElement.innerText = "Draw!";
+        winningMessageTextElement.innerText = "Game Over!";
       } else {
         winningMessageTextElement.innerText = `${
           circleTurn ? "O player" : "X player"
